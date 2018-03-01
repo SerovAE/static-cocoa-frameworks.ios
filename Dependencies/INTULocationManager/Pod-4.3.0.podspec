@@ -1,14 +1,13 @@
-# coding: utf-8
 Pod::Spec.new do |s|
   s.name                  = "INTULocationManager"
-  s.version               = "4.2.0"
+  s.version               = "4.3.0"
   s.homepage              = "https://github.com/intuit/LocationManager"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
-  s.author                = { "Jason Hall" => "Jason_Hall2@intuit.com" }
-  s.source                = { :git => "https://github.com/intuit/LocationManager.git", :tag => "v4.2.0" }
+  s.author                = { "Lucien Dupont" => "lucien_dupont@intuit.com" }
+  s.source                = { :git => "https://github.com/intuit/LocationManager.git", :tag => "v4.3.0" }
   s.source_files          = 'LocationManager/INTULocationManager'
   s.platform              = :ios
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '9.0'
   s.requires_arc          = true
   s.summary               = "Easily get the device's current location on iOS."
   s.description           = <<-DESC
@@ -26,7 +25,7 @@ Pod::Spec.new do |s|
 # MARK: - iOS Static Framework
 
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.license = {}
   s.static_framework = true

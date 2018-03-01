@@ -1,7 +1,6 @@
-# coding: utf-8
 Pod::Spec.new do |s|
   s.name             = "RxSwift"
-  s.version          = "4.0.0"
+  s.version          = "4.1.2"
   s.summary          = "RxSwift is a Swift implementation of Reactive Extensions"
   s.description      = <<-DESC
 This is a Swift port of [ReactiveX.io](https://github.com/ReactiveX)
@@ -39,7 +38,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
 # MARK: - iOS Static Framework
 
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.license = {}
   s.static_framework = true
